@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- we can add more description about the page to the server e.g-->
+    <meta name="author" content="Oyindamola Ibrahim">
+    <meta name="description" content="This page contains all the info I'm learning about HTML">
+    <title>ALT School Application Form</title>
+    
+    <!-- To add an icon to the page on the server-->
+     <link rel="icon" href="./assets/pic.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" aria-label="Go to Home Page">Home Page</a>
+        </nav>
+        
+        <h1>Sign Up</h1>
+    </header>
+    <p>Take the next steps to apply at AltSchool Africa</p>
+
+    <main>
+        <form action="#" method="post" aria-labelledby="form-title">
+
+        <!-- First Name -->
+        <div>
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter first name" aria-required="true">
+        </div><br>
+        
+        <!-- Last Name -->
+        <div>
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter last name" aria-required="true">
+        </div><br>
+        
+        <!-- Gender -->
+        <div>
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender" aria-required="true">
+                <option value="">Select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </div><br>
+        
+        <!-- Date of Birth -->
+        <div>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" aria-required="true">
+        </div><br>
+        
+        <!-- Email -->
+        <div>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter email address" aria-required="true">
+        </div><br>
+        
+        <!-- Phone -->
+        <div>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="08154387000" aria-required="true">
+        </div><br>
+        
+        <!-- Country -->
+        <div>
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" name="country" placeholder="Enter your country" aria-required="true">
+        </div><br>
+        
+        <!-- State/City -->
+        <div>
+            <label for="residence">State/City of Residence:</label><br>
+            <input type="text" id="residence" name="residence" placeholder="Enter your residence" aria-required="true">
+        </div><br>
+        
+        <!-- How did you hear about us? -->
+        <div>
+            <label for="referral">How did you hear about us?</label><br>
+            <select id="referral" name="referral">
+                <option value="">Select</option>
+                <option>Social Media</option>
+                <option>Friend</option>
+                <option>Other</option>
+            </select>
+        </div><br>
+        
+        <!-- Password -->
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" aria-required="true">
+        </div><br>
+        
+        <!-- Confirm Password -->
+        <div>
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter password" aria-required="true">
+        </div><br>
+        
+        <p>By clicking continue, I agree to the Terms of Use and acknowledge that I
+           have read the Privacy Policy.</p>
+        
+        <!-- Submit Button -->
+        <div>
+            <button type="submit" aria-label="Submit application form">Submit</button>
+        </div>
+    </form>
+    
+    </main>
+    <footer>
+        <p>&copy; 2024 Oyindamola Ibrahim. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
+ 
